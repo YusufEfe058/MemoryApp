@@ -1,0 +1,47 @@
+.container {
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.container h1 {
+    font-size: 36px bold; /* Başlık boyutu */
+    color: #F5EFFF; /* Beyaz yazı rengi */
+    background-color: #664343; /* Yeşil arka plan */
+    display: block; /* Başlık tam genişlik kaplar */
+    padding: 10px 20px; /* İç boşluk */
+    margin-top: 20px; /* Üstten boşluk */
+    font-family: 'Arial', sans-serif; /* Yazı tipi */
+    text-transform: uppercase; /* Büyük harf */
+    letter-spacing: 2px; /* Harfler arası boşluk */
+    border-radius: 8px; /* Köşeleri yuvarla */
+    text-align: center; /* Metni ortala */
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.container button {
+    background-color: #0B192C; /* Yeşil arka plan */
+    border: none; /* Kenarlık yok */
+    color: white; /* Beyaz metin */
+    padding: 15px 32px; /* Butonun iç boşluğu */
+    text-align: center; /* Metni ortala */
+    text-decoration: none; /* Metin altı çizgisi yok */
+    display: inline-block; /* Satır içi eleman */
+    font-size: 16px; /* Yazı boyutu */
+    margin: 20px auto; /* Üst ve alt boşluk, yanlardan otomatik merkezleme */
+    cursor: pointer; /* Mouse üzerine gelince imleci değiştir */
+    border-radius: 8px; /* Köşeleri yuvarla */
+}
+
+.container p {
+    color: #0B192C;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
